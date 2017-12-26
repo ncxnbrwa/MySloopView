@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sloop="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_pie_chart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/pie_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:title="pie_chart"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        ></android.support.v7.widget.Toolbar>
+
+    <test.mysloopview.MyView.PieView
+        android:id="@+id/pieview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        sloop:pie_color="@android:color/holo_blue_dark"
+        />
+
+</LinearLayout>

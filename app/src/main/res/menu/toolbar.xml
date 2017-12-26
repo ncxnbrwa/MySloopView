@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/setting"
+        android:title="设置"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/back"
+        android:title="支付"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/paint_test"
+        android:title="paint"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/pie_chart"
+        android:title="饼状图"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/canvas_test"
+        android:title="canvas"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/picture_test"
+        android:title="画图片"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/text_test"
+        android:title="画文字"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/path_test"
+        android:title="pathTest"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/bezier_test"
+        android:title="贝塞尔曲线"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/path_measure_test"
+        android:title="PathMeasure测试"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/matrix_test"
+        android:title="Matrix测试"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/matrix_camera_test"
+        android:title="MatrixCamera测试"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/multi_touch_test"
+        android:title="多点触摸"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/animation_test"
+          android:title="动画测试"
+          app:showAsAction="never"/>
+</menu>
